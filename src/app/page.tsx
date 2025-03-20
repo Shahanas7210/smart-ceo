@@ -22,7 +22,7 @@ export default function Home() {
       <Features />
       <Expert />
      
-      <div className="bg-gray-100 text-gray-900 py-12 px-6 lg:px-24">
+      <div className="text-black/60 dark:text-white/60 py-12 px-6 lg:px-24">
       {/* Our Mission Section */}
       <section className="text-center mb-16">
         <h2 className="text-4xl font-bold text-blue-600 mb-4">Our Mission</h2>
@@ -50,27 +50,27 @@ export default function Home() {
       <section className="text-center">
         <h2 className="text-4xl font-bold text-purple-600 mb-8">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="p-6 bg-white rounded-lg shadow-lg flex flex-col items-center">
+          <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
             <FaChartLine className="text-blue-500 text-5xl mb-4" />
             <h3 className="text-xl font-semibold">Business Consulting</h3>
             <p className="text-gray-600">Expert guidance to streamline operations and improve efficiency.</p>
           </div>
-          <div className="p-6 bg-white rounded-lg shadow-lg flex flex-col items-center">
+          <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
             <FaSearch className="text-green-500 text-5xl mb-4" />
             <h3 className="text-xl font-semibold">Market Strategy</h3>
             <p className="text-gray-600">Data-driven insights to position your business for success.</p>
           </div>
-          <div className="p-6 bg-white rounded-lg shadow-lg flex flex-col items-center">
+          <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
             <FaLaptopCode className="text-purple-500 text-5xl mb-4" />
             <h3 className="text-xl font-semibold">Digital Transformation</h3>
             <p className="text-gray-600">Helping businesses adapt and grow in the digital age.</p>
           </div>
-          <div className="p-6 bg-white rounded-lg shadow-lg flex flex-col items-center">
+          <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
             <FaUserTie className="text-orange-500 text-5xl mb-4" />
             <h3 className="text-xl font-semibold">Entrepreneur Support</h3>
             <p className="text-gray-600">Resources, mentoring, and networking for startup success.</p>
           </div>
-          <div className="p-6 bg-white rounded-lg shadow-lg flex flex-col items-center">
+          <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
             <FaRegLightbulb className="text-yellow-500 text-5xl mb-4" />
             <h3 className="text-xl font-semibold">Customized Solutions</h3>
             <p className="text-gray-600">Tailored services that align with your business goals.</p>
