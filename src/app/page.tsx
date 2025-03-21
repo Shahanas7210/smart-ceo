@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-       <link rel="icon" href="/favicon.ico" />
+       
       <Hero />
       <Cook />
       <Features />
@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* Our Services Section */}
-      <section className="text-center">
+      <section className="text-center  " id="service-section" >
         <h2 className="text-4xl font-bold text-purple-600 mb-8">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
