@@ -18,7 +18,7 @@ const Features = () => {
                             className="relative bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-3xl p-8 text-center"
                         >
                             <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 w-28 h-28 flex justify-center items-center rounded-full bg-white shadow-lg dark:bg-gray-800">
-                                <Image src={item.imgSrc} alt={item.heading} width={80} height={80} />
+                                <img src={item.imgSrc} alt={item.heading} width={80} height={80} />
                             </div>
                             <h3 className="text-xl font-semibold text-black dark:text-white mt-16">
                                 {item.heading}
