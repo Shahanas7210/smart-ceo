@@ -4,22 +4,22 @@ export const FeaturesData: {
   subheading: string;
 }[] = [
     {
-      imgSrc: '/images/features/hello1.jpg',
+      imgSrc: '/images/hello1.jpg',
       heading: "Tailored Business Solutions",
       subheading: "We provide strategies that fit your business needs.",
     },
     {
-      imgSrc: '/images/features/hello2.jpg',
+      imgSrc: '/images/hello2.jpg',
       heading: "Expert-Led Insights",
       subheading: "Our team consists of industry leaders and professionals.",
     },
     {
-      imgSrc: '/images/features/hello3.jpg',
+      imgSrc: '/images/hello3.jpg',
       heading: "Innovation-Driven Approach",
       subheading: "We believe in future-ready solutions.",
     },
     {
-      imgSrc: '/images/features/hello4.jpg',
+      imgSrc: '/images/hello4.jpg',
       heading: "Collaborative Growth",
       subheading: "We connect businesses with the right partners.",
     },
