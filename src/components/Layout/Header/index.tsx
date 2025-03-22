@@ -83,10 +83,10 @@ const Header: React.FC = () => {
             ))}
           </nav>
           <div className="flex items-center gap-4">
-            <Link href="#" className="text-lg font-medium hover:text-primary">
+            <Link href="#" className="text-lg font-medium hover:text-primary hidden md:inline-block">
               <Icon
                 icon="solar:phone-bold"
-                className="text-primary text-3xl inline-block me-2"
+                className="text-primary text-3xl hidden md:inline-block me-2 "
               />
               +91 9999 9999 99
             </Link>

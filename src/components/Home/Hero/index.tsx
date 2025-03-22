@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section id="home-section" className="bg-gray-50 dark:bg-gray-700 py-32">
+    <section id="home-section" className="bg-gray-50 dark:bg-gray-700 py-40 md:py-32">
       <div className="container mx-auto px-4 max-w-screen-xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
           {/* Left Content */}

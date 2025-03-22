@@ -5,7 +5,7 @@ import { FeaturesData } from "@/app/api/data";
 const Features = () => {
     return (
         <section className="py-16">
-            <div className="container mx-auto px-4 max-w-screen-xl" id="about-section">
+            <div className="container mx-auto px-4 max-w-screen-xl" >
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-black dark:text-white mx-auto">
                         Why Choose Smart CEO?
