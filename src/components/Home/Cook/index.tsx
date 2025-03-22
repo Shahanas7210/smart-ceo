@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Cook = () => {
   return (
-    <section id="cook-section" className="relative py-16" id="about-section">
+    <section  className="relative py-16" id="about-section">
       <div className="container mx-auto px-4 max-w-screen-xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           {/* Left Image */}
