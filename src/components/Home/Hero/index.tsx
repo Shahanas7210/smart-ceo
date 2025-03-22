@@ -33,7 +33,7 @@ const Hero = () => {
           {/* Right Image */}
           <div className="lg:col-span-6 flex justify-center">
             <Image
-              src="/images/hero/banner-image-1.png"
+              src="/images/hero/banner-image-2.png"
               alt="Hero Banner"
               width={500}
               height={500}
