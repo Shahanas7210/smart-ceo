@@ -25,9 +25,10 @@ export default function Home() {
       <div className="text-black/60 dark:text-white/60 py-12 px-6 lg:px-24">
       {/* Our Mission Section */}
       <section className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-blue-600 mb-4">Our Mission</h2>
+        <h2 className="text-4xl font-bold text-blue-600 mb-4">Our Purpose</h2>
         <p className="text-lg max-w-3xl mx-auto">
-          To empower organizations with actionable, impactful strategies that address modern business challenges, ensuring they don’t just survive—but thrive. Through innovation, collaboration, and expertise, we help businesses navigate complexities, embrace growth, and build a strong foundation for the future.
+        we are dedicated to delivering innovative solutions that address the unique challenges businesses face today. Our mission is to empower organizations with practical, impactful strategies that drive success—not just in the present, but for the future. We believe that solving business challenges is more than a service; it’s a commitment to creating lasting value here and hereafter.
+
         </p>
       </section>
 
@@ -35,7 +36,7 @@ export default function Home() {
       <section className="relative text-center mb-16">
         <h2 className="text-4xl font-bold text-green-600 mb-4">Our Vision</h2>
         <p className="text-lg max-w-3xl mx-auto mb-8">
-          A network of entrepreneurs and solution providers, connected through digital lines, showing collaboration and ecosystem building.
+        Our vision is to build a dynamic and practical ecosystem that bridges the gap between solution providers and solution seekers. With a special focus on entrepreneurs, we aim to foster a collaborative environment where ideas thrive, resources are accessible, and growth is achievable. By connecting those who innovate with those who need answers, we’re shaping a future where every business can flourish
         </p>
         {/* <div className="flex justify-center">
           <img 

@@ -35,8 +35,8 @@ const Hero = () => {
             <Image
               src="/images/hero/banner-image-2.png"
               alt="Hero Banner"
-              width={500}
-              height={500}
+              width={600}
+              height={600}
               className="max-w-full h-auto"
             />
           </div>
