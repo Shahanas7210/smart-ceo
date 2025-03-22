@@ -21,10 +21,10 @@ const Logo: React.FC = () => {
       <div className=' text-center   gap-4  w-40 h-16'>
         <h1 className='text-[#bb8528]'>SMART</h1>
         <div className='flex justify-between '>
-        <div className='bg-[#006cb0] size-10  '>
+        <div className='bg-[#006cb0] size-10 flex items-center justify-center '>
           <h1 className='text-white'>C</h1>
         </div>
-        <div className='bg-[#8f2b8c] size-10 '>
+        <div className='bg-[#8f2b8c] size-10 flex items-center justify-center '>
         <h1 className='text-white'>E</h1>
         </div>
         <div className='bg-[#29a084] size-10 flex items-center justify-center '>
