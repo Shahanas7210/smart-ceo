@@ -23,7 +23,7 @@ export default function RootLayout({
           
           {children}
           <Footer />
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
         </ThemeProvider>
       </body>
     </html>
