@@ -88,7 +88,7 @@ const Header: React.FC = () => {
                 icon="solar:phone-bold"
                 className="text-primary text-3xl hidden md:inline-block me-2 "
               />
-              +91 9999 9999 99
+              +91 96 56 110 112
             </Link>
             <Link
               href="#"

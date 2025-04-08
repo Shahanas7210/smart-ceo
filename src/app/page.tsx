@@ -27,7 +27,7 @@ export default function Home() {
       <section className="text-center mb-16">
         <h2 className="text-4xl font-bold text-blue-600 mb-4">Our Purpose</h2>
         <p className="text-lg max-w-3xl mx-auto">
-        we are dedicated to delivering innovative solutions that address the unique challenges businesses face today. Our mission is to empower organizations with practical, impactful strategies that drive success—not just in the present, but for the future. We believe that solving business challenges is more than a service; it’s a commitment to creating lasting value here and hereafter.
+        Entrpreneurs drive stability, but SMEs face uncertainity. We bridge this gap by Connecting Solution providers with seekers, we belive practical Solution Providing not only a service, it also committed creating lasting value here and hereafter.
 
         </p>
       </section>
@@ -53,32 +53,41 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
             <FaChartLine className="text-blue-500 text-5xl mb-4" />
-            <h3 className="text-xl font-semibold">Business Consulting</h3>
-            <p className="text-gray-600">Expert guidance to streamline operations and improve efficiency.</p>
+            <h3 className="text-xl font-semibold">DIAGNOSE / SCAN BUSINESS HEALTH</h3>
+            <p className="text-gray-600">Actually Where is Your Business Now (0..10)</p>
           </div>
           <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
             <FaSearch className="text-green-500 text-5xl mb-4" />
-            <h3 className="text-xl font-semibold">Market Strategy</h3>
-            <p className="text-gray-600">Data-driven insights to position your business for success.</p>
+            <h3 className="text-xl font-semibold">CLARITY OF VISION/GOAL</h3>
+            <p className="text-gray-600">Where you want to Go Actually</p>
           </div>
           <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
             <FaLaptopCode className="text-purple-500 text-5xl mb-4" />
-            <h3 className="text-xl font-semibold">Digital Transformation</h3>
-            <p className="text-gray-600">Helping businesses adapt and grow in the digital age.</p>
+            <h3 className="text-xl font-semibold">NEEDY RESOURCES & CAPABILITIES</h3>
+            <p className="text-gray-600">What are the Resources & Capabalities we need to Move Destination</p>
           </div>
           <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
             <FaUserTie className="text-orange-500 text-5xl mb-4" />
-            <h3 className="text-xl font-semibold">Entrepreneur Support</h3>
-            <p className="text-gray-600">Resources, mentoring, and networking for startup success.</p>
+            <h3 className="text-xl font-semibold">SUPPORTS FROM SEGMENT EXPERTS</h3>
+            <p className="text-gray-600">Who is Our Suitable Segment Experts to Handhold me to Move Next Step</p>
           </div>
-          <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
-            <FaRegLightbulb className="text-yellow-500 text-5xl mb-4" />
-            <h3 className="text-xl font-semibold">Customized Solutions</h3>
-            <p className="text-gray-600">Tailored services that align with your business goals.</p>
-          </div>
+          {/*  */}
         </div>
       </section>
     </div>
+    <section className="relative text-center mb-16">
+        <h2 className="text-4xl font-bold text-green-600 mb-4">MENTORSHIP CLUB</h2>
+        <p className="text-lg max-w-3xl mx-auto mb-8">
+        We Provide to all smart CEO Family Members One year handholding through Online Interactive Session with 100 Plus Segment Experts for Supporting Execution Period
+        </p>
+        {/* <div className="flex justify-center">
+          <img 
+            src="/images/vision.jpg" 
+            alt="Network of entrepreneurs and solution providers" 
+            className="rounded-lg shadow-lg w-full max-w-3xl" 
+          />
+        </div> */}
+      </section>
     <Gallery />
     <Newsletter />
     </main>
