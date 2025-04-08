@@ -18,9 +18,9 @@ const Logo: React.FC = () => {
         // style={{ width: 'auto', height: 'auto' }}
         quality={100}
       /> */}
-      <div className=' text-center   gap-4  w-40 h-16'>
+      <div className='  flex flex-col justify-center  text-center'>
         <h1 className='text-[#bb8528]'>SMART</h1>
-        <div className='flex justify-between '>
+        <div className='flex gap-2 '>
         <div className='bg-[#006cb0] size-10 flex items-center justify-center '>
           <h1 className='text-white'>C</h1>
         </div>
