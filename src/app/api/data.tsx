@@ -5,8 +5,8 @@ export const FeaturesData: {
 }[] = [
     {
       imgSrc: '/images/hello1.jpg',
-      heading: "Tailored Business Solutions",
-      subheading: "We provide strategies that fit your business needs.",
+      heading: "Practical Solution Buffet",
+      subheading: "Opportunity to Interact (Pick) 50 plus Expeert Brains for Your own Solutions",
     },
     {
       imgSrc: '/images/hello2.jpg',
@@ -15,7 +15,7 @@ export const FeaturesData: {
     },
     {
       imgSrc: '/images/hello3.jpg',
-      heading: "Innovation-Driven Approach",
+      heading: "Ensure Creating  25 Quality Mentors",
       subheading: "We believe in future-ready solutions.",
     },
     {
@@ -37,7 +37,7 @@ export const ExpertData: {
   imgSrc: string;
 }[] = [
     {
-      profession: ' Managing Director',
+      profession: 'Chief Co Ordinator',
       name: 'Nasser Idea Factory',
       imgSrc: '/images/Expert/nasser.png',
     },

@@ -39,7 +39,7 @@ const Expert = () => {
     };
 
     return (
-        <section className="bg-primary/15">
+        <section className="">
             <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md'>
                 <div className="text-center">
                     {/* <p className='text-primary text-lg font-normal mb-3 tracking-widest uppercase'>EXPERT CHEFS</p> */}
