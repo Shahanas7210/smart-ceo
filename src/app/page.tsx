@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-900 min-h-screen relative">
-      <div className="absolute inset-0 bg-[url('/images/hello1.jpg')] opacity-5 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-[5%] pointer-events-none "></div>
       <AnimatedBackground/>
       <Hero />
       

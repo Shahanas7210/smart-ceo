@@ -11,6 +11,7 @@ import Signin from "@/components/Auth/SignIn";
 import SignUp from "@/components/Auth/SignUp";
 import { useTheme } from "next-themes";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import CloseButton from "@/components/close";
 
 const Header: React.FC = () => {
   const pathUrl = usePathname();
@@ -141,7 +142,7 @@ const Header: React.FC = () => {
                   >
                     <Icon
                       icon="tabler:currency-xrp"
-                      className="text-white hover:text-primary text-24 inline-block me-2"
+                      className="text-black dark:text-white hover:text-primary text-24 inline-block me-2"
                     />
                   </button>
                   <SignUp />
@@ -153,9 +154,9 @@ const Header: React.FC = () => {
               className="block lg:hidden p-2 rounded-lg"
               aria-label="Toggle mobile menu"
             >
-              <span className="block w-6 h-0.5 bg-white"></span>
-              <span className="block w-6 h-0.5 bg-white mt-1.5"></span>
-              <span className="block w-6 h-0.5 bg-white mt-1.5"></span>
+              <span className="block w-6 h-0.5 bg-black "></span>
+              <span className="block w-6 h-0.5 bg-black  mt-1.5"></span>
+              <span className="block w-6 h-0.5 bg-black  mt-1.5"></span>
             </button>
           </div>
         </div>
@@ -164,7 +165,7 @@ const Header: React.FC = () => {
         )}
         <div
           ref={mobileMenuRef}
-          className={`lg:hidden fixed top-0 right-0 h-full w-full bg-darkmode shadow-lg transform transition-transform duration-300 max-w-xs ${navbarOpen ? "translate-x-0" : "translate-x-full"
+          className={`lg:hidden fixed top-0 right-0 h-full w-full bg-white dark:bg-black shadow-lg transform transition-transform duration-300 max-w-xs ${navbarOpen ? "translate-x-0" : "translate-x-full"
             } z-50`}
         >
           <div className="flex items-center justify-between p-4">
@@ -175,9 +176,12 @@ const Header: React.FC = () => {
             {/*  */}
             <button
               onClick={() => setNavbarOpen(false)}
-              className="bg-[url('/images/closed.svg')] bg-no-repeat bg-contain w-5 h-5 absolute top-0 right-0 mr-8 mt-8 dark:invert"
+              className=" bg-no-repeat  bg-contain w-5 h-5 absolute top-0 right-0 mr-8 mt-8 "
               aria-label="Close menu Modal"
-            ></button>
+            >
+              <CloseButton className="ffff"/>
+             
+            </button>
           </div>
           <nav className="flex flex-col items-start p-4">
             {headerData.map((item, index) => (
