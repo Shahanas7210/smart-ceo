@@ -16,7 +16,7 @@ export const AnimatedBackground: React.FC = () => {
     canvas.height = window.innerHeight;
 
     // Configuration
-    const particleCount = 50;
+    const particleCount = 1000;
     const particles: {
       x: number;
       y: number;

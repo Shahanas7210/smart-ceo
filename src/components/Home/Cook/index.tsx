@@ -10,14 +10,15 @@ const Cook = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           {/* Left Image */}
           <div className="lg:col-span-6 flex justify-center lg:justify-start">
-            <Image
-              src="/images/cook/cook1.png"
-              alt="Chef cooking"
-              width={450}
-              height={500}
-              className="max-w-full h-auto"
-            />
-          </div>
+  <Image
+    src="/images/image2.png"
+    alt="Chef cooking"
+    width={550}
+    height={500}
+    className="max-w-full h-auto rounded-2xl" // Add border and opacity classes
+  />
+</div>
+
           
           {/* Right Content */}
           <div className="lg:col-span-6">
