@@ -66,12 +66,12 @@ export const ExpertData: {
 
 // data.tsx
 export const galleryImages = [
-  { src: '/images/gallery/1.png', name: 'Program name', price: 35 },
-  { src: '/images/gallery/2.png', name: 'Program name', price: 17 },
-  { src: '/images/gallery/3.png', name: 'Program name', price: 45 },
-  { src: '/images/gallery/4.png', name: 'Program name', price: 27 },
-  { src: '/images/gallery/5.png', name: 'Program name', price: 27 },
-  { src: '/images/gallery/6.png', name: 'Program name', price: 27 },
-  { src: '/images/gallery/7.png', name: 'Program name', price: 27 },
-  { src: '/images/gallery/8.png', name: 'Program name', price: 27 },
+  { src: '/images/new-galley/1.png', name: 'Program name', price: 35 },
+  { src: '/images/new-galley/2.png', name: 'Program name', price: 17 },
+  { src: '/images/new-galley/3.png', name: 'Program name', price: 45 },
+  { src: '/images/new-galley/4.png', name: 'Program name', price: 27 },
+  { src: '/images/new-galley/5.png', name: 'Program name', price: 27 },
+  { src: '/images/new-galley/6.png', name: 'Program name', price: 27 },
+  { src: '/images/new-galley/7.png', name: 'Program name', price: 27 },
+  { src: '/images/new-galley/8.png', name: 'Program name', price: 27 },
 ];
