@@ -16,7 +16,7 @@ const Footer: FC = () => {
     },
   ];
   return (
-    <footer className="pt-16 bg-darkmode">
+    <footer className="pt-16 bg-white dark:bg-black text-black dark:text-white">
       <div className="container mx-auto px-4 max-w-screen-xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 pb-16">
           {/* Logo and description */}

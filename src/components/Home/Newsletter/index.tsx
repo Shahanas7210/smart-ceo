@@ -4,9 +4,9 @@ import { Icon } from "@iconify/react";
 
 const Newsletter = () => {
     return (
-        <section className='relative'>
-            <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md ">
-                <div className="bg-primary rounded-Newsletter grid grid-cols-1 gap-y-10 gap-x-6 md:grid-cols-12 xl:gap-x-8">
+        <section className='relative '>
+            <div className="container  mx-auto lg:max-w-screen-xl md:max-w-screen-md ">
+                <div className=" bg-[#006db0c4] rounded-Newsletter grid grid-cols-1 gap-y-10 gap-x-6 md:grid-cols-12 xl:gap-x-8">
                     <div className="col-span-7">
                         <div className="m-10 lg:ml-32 lg:mt-20 lg:mb-20">
                             <p className="text-lg font-normal text-white mb-3 ls-51"> NEWSLETTER </p>

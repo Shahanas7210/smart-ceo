@@ -41,13 +41,37 @@ export const ExpertData: {
       name: 'Nasser Idea Factory',
       imgSrc: '/images/Expert/nasser.png',
     },
+    {
+      profession: 'Chief Co Ordinator',
+      name: 'Nasser Idea Factory',
+      imgSrc: '/images/experts/1.png',
+    },
+    {
+      profession: 'Chief Co Ordinator',
+      name: 'Nasser Idea Factory',
+      imgSrc: '/images/Expert/nasser.png',
+    },
+    {
+      profession: 'Chief Co Ordinator',
+      name: 'Nasser Idea Factory',
+      imgSrc: '/images/Expert/nasser.png',
+    },
+    {
+      profession: 'Chief Co Ordinator',
+      name: 'Nasser Idea Factory',
+      imgSrc: '/images/Expert/nasser.png',
+    },
    
   ]
 
 // data.tsx
 export const galleryImages = [
-  { src: 'https://placehold.co/600x400', name: 'Program name', price: 35 },
-  { src: 'https://placehold.co/600x400', name: 'Program name', price: 17 },
-  { src: 'https://placehold.co/600x400', name: 'Program name', price: 45 },
-  { src: 'https://placehold.co/600x700', name: 'Program name', price: 27 },
+  { src: '/images/gallery/1.png', name: 'Program name', price: 35 },
+  { src: '/images/gallery/2.png', name: 'Program name', price: 17 },
+  { src: '/images/gallery/3.png', name: 'Program name', price: 45 },
+  { src: '/images/gallery/4.png', name: 'Program name', price: 27 },
+  { src: '/images/gallery/5.png', name: 'Program name', price: 27 },
+  { src: '/images/gallery/6.png', name: 'Program name', price: 27 },
+  { src: '/images/gallery/7.png', name: 'Program name', price: 27 },
+  { src: '/images/gallery/8.png', name: 'Program name', price: 27 },
 ];

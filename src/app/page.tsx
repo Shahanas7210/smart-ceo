@@ -10,12 +10,16 @@ import { FaChartLine, FaSearch, FaLaptopCode, FaUserTie, FaRegLightbulb } from "
 import { AnimatedBackground } from "@/components/animated-background";
 import { BottomWave, TopWave } from "@/components/waves";
 
+import Autoplay from "embla-carousel-autoplay"
+import ProgramCarousel from "@/components/program-carousel";
+
 export const metadata: Metadata = {
   title: "SMART CEO",
   
 };
 
 export default function Home() {
+
   return (
     <main className="bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-900 min-h-screen relative">
       <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-[5%] pointer-events-none "></div>
@@ -26,7 +30,7 @@ export default function Home() {
       <Cook />
    
       <Features />
-      <Expert />
+      {/* <Expert /> */}
 
       <div className="text-black/60 dark:text-white/60 py-12 px-6 lg:px-24">
         {/* Our Mission Section */}
@@ -101,27 +105,23 @@ export default function Home() {
                 Step
               </p>
             </div>
+            <div className="p-6 bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black rounded-lg shadow-lg flex flex-col items-center">
+              <FaUserTie className="text-orange-500 text-5xl mb-4" />
+              <h3 className="text-xl font-semibold">
+              MENTORSHIP CLUB
+              </h3>
+              <p className="text-gray-600">
+              We Provide to all smart CEO Family Members One year handholding
+          through Online Interactive Session with 100 Plus Segment Experts for
+          Supporting Execution Period
+              </p>
+            </div>
             {/*  */}
           </div>
         </section>
       </div>
-      <section className="relative text-center mb-16">
-        <h2 className="text-4xl font-bold text-green-600 mb-4">
-          MENTORSHIP CLUB
-        </h2>
-        <p className="text-lg max-w-3xl mx-auto mb-8">
-          We Provide to all smart CEO Family Members One year handholding
-          through Online Interactive Session with 100 Plus Segment Experts for
-          Supporting Execution Period
-        </p>
-        {/* <div className="flex justify-center">
-          <img 
-            src="/images/vision.jpg" 
-            alt="Network of entrepreneurs and solution providers" 
-            className="rounded-lg shadow-lg w-full max-w-3xl" 
-          />
-        </div> */}
-      </section>  
+    
+     <ProgramCarousel/>
       <Gallery />
       <Newsletter />
       
