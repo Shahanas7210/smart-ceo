@@ -99,7 +99,7 @@ const Header: React.FC = () => {
               onClick={() => {
                 setIsSignInOpen(true);
               }}
-              className="cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-black bg-opacity-80 text-[#f1f1f1] rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md"
+              className="hidden cursor-pointer group relative md:flex gap-1.5 px-8 py-4 bg-black bg-opacity-80 text-[#f1f1f1] rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +203,7 @@ const Header: React.FC = () => {
             <div className="mt-4 flex flex-col space-y-4 w-full">
               <Link
                 href="#"
-                className="bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white"
+                className="bg-transparent  border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white"
                 onClick={() => {
                   setIsSignInOpen(true);
                   setNavbarOpen(false);
