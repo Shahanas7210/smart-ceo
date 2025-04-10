@@ -23,7 +23,7 @@ const Cook = () => {
             <p className="text-primary text-lg font-semibold uppercase tracking-wide mb-4">
               About Us
             </p>
-            <p className="text-black/60 dark:text-white/60 text-lg mb-6">
+            <p className="text-primary text-lg mb-6">
               <strong>Smart CEO</strong> Is a Practical Solution Providing
               Platform Through 100 Plus Segment Experts, and Associats with Two
               MBA Colleges, Running A Short Term Residential , Experiential
