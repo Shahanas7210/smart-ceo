@@ -4,7 +4,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='bg-transparent '>
+    <div className='bg-white'>
         <Cook />
         <RoadmapTimeline/>
     </div>

@@ -133,7 +133,7 @@ export default function RoadmapTimeline() {
     <div className="flex flex-col items-center text-primary min-h-screen py-8 px-4">
       <AnimatedBackground />
       <div className="mb-12 text-center">
-        <h2 className="text-4xl font-bold text-primary">ROAD MAP</h2>
+        <h2 className="text-4xl font-bold text-black">ROAD MAP</h2>
       </div>
 
       <div className="relative w-full max-w-6xl">
