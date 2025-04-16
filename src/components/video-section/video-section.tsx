@@ -3,12 +3,12 @@ import React from "react";
 const VideoSection = () => {
   const videos = [
     {
-      url: "https://smartceo.co.in/Video1.mp4",
+      url: "https://dev.smartceo.co.in/Video1.mp4",
       title: "Business Growth Strategies",
       description: "Learn actionable strategies to scale your business and overcome common challenges."
     },
     {
-      url: "https://smartceo.co.in/Video2.mp4", // Assuming the second video follows similar naming
+      url: "https://dev.smartceo.co.in/Video2.mp4", // Assuming the second video follows similar naming
       title: "Leadership Insights",
       description: "Discover key leadership principles that drive successful organizations."
     }
