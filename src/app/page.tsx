@@ -12,6 +12,7 @@ import { BottomWave, TopWave } from "@/components/waves";
 
 import Autoplay from "embla-carousel-autoplay"
 import ProgramCarousel from "@/components/program-carousel";
+import VideoSection from "@/components/video-section/video-section";
 
 export const metadata: Metadata = {
   title: "SMART CEO",
@@ -123,7 +124,9 @@ export default function Home() {
     
      <ProgramCarousel/>
       <Gallery />
+      <VideoSection/>
       <Newsletter />
+      
       
     </main>
   );
